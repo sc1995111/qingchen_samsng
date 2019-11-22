@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var a = [{
+            titles:"智能手机",
+            childs:[
+                {
+                    title: "Galaxy Note10+ 5G",
+                    img: "../images/pic_002.jpg"
+                },{
+                    title: "Galaxy Note10",
+                    img: "../images/pic_003.jpg"
+                },{
+                    title: "Galaxy S10+ 8GB+128GB版本",
+                    img: "../images/pic_004.jpg"
+                },{
+                    title: "Galaxy A80",
+                    img: "../images/pic_005.jpg"
+                }
+            ],
+            childss:["Samsung Galaxy Fold","Galaxy S系列", "Galaxy Note系列", "Galaxy A系列", "Galaxy M系列", "三星 W系列"]
+        },{
+            titles:"可穿戴设备",
+            childs:[
+                {
+                    title: "Samsung Galaxy Watch Active2 蓝牙版 44mm 铝合金版",
+                    img: "../images/pic_006.jpg"
+                },{
+                    title: "Samsung Galaxy Buds",
+                    img: "../images/pic_007.jpg"
+                },{
+                    title: "Samsung Galaxy Watch LTE版 46mm钛泽银",
+                    img: "../images/pic_008.jpg"
+                },{
+                    title: "Galaxy Watch Active",
+                    img: "../images/pic_009.jpg"
+                }
+            ]
+        },{
+            titles:"个人电脑",
+            childs:[
+                {
+                    title: "Galaxy Tab S4 4G",
+                    img: "../images/pic_010.jpg"
+                },{
+                    title: "Galaxy Tab S5e WLAN",
+                    img: "../images/pic_011.jpg"
+                },{
+                    title: "三星星曜Pen Pro 930SBE-K04",
+                    img: "../images/pic_012.jpg"
+                },{
+                    title: "三星笔记本星曜Pen Pro 930SBE-K01",
+                    img: "../images/pic_013.jpg"
+                }
+            ],
+            childss:["笔记本电脑", "玄龙MR", "玄龙骑士","Notebook 9","Notebook 7","Notebook 5","Notebook 3"],
+            childss2:["平板电脑","Galaxy Tab S","Galaxy Tab A","盖乐世 Tab E"]
+        },{
+            titles:"智能家居",
+            childs:[
+                {
+                    title: "智能网关",
+                    img: "../images/pic_014.jpg"
+                },{
+                    title: "智能插座",
+                    img: "../images/pic_015.jpg"
+                },{
+                    title: "智能遥控器",
+                    img: "../images/pic_016.jpg"
+                },{
+                    title: "三星智能锁 SHP-DP739电子门锁(外推式)",
+                    img: "../images/pic_017.jpg"
+                }
+            ],
+            childss:["健康生活类","便携生活类","安全智能类","时尚酷玩类"]
+        },{
+            titles:"配件",
+            childs:[
+                {
+                    title: "Galaxy Note10 硅胶保护壳",
+                    img: "../images/pic_018.jpg"
+                },{
+                    title: "Galaxy S10 漫威漫画智能保护壳",
+                    img: "../images/pic_019.jpg"
+                },{
+                    title: "Galaxy Note10 镜面保护套",
+                    img: "../images/pic_020.jpg"
+                },{
+                    title: "Galaxy S10e LED智能背光保护壳",
+                    img: "../images/pic_021.jpg"
+                }
+            ],
+            childss:["保护类","电源类","音频类","存储类","连接类"]
+        }
+        ];
+        var b = [{
+            img:[{
+                imgs: "images/pic_088.jpg"
+            }, {
+                imgs: "images/pic_089.jpg"
+            }, {
+                imgs: "images/pic_090.jpg"
+            }, {
+                imgs: "images/pic_091.jpg"
+            }, {
+                imgs: "images/pic_092.jpg"
+            },{
+                imgs: "images/pic_093.jpg"
+            }, {
+                imgs: "images/pic_094.jpg"
+            }, {
+                imgs: "images/pic_088.jpg"
+            }]
+        }];
+
+
+        var c = [{
+            title:"智能手机",
+            childs:[
+                        {
+                            img:"images/pic_051.jpg",    
+                            titles:"Galaxy A90 5G",
+                            details:"24期免息 至高400元换新补贴",
+                            price:"¥4499.00",
+                            overdue:""
+                        },{
+                            img:"images/pic_052.jpg",
+                            titles:"Samsung Galaxy M30s",
+                            details:"领券优惠100元",
+                            price:"¥1699.00",
+                            overdue:""
+                        },{
+                            img:"images/pic_053.jpg",
+                            titles:"Galaxy A50s",
+                            details:"享6个月优惠换屏",
+                            price:"¥1999.00",
+                            overdue:""
+                        },{
+                            img:"images/pic_054.jpg",
+                            titles:"Galaxy S10 8GB+512GB版本",
+                            details:"领券优惠2500元 享12期免息",
+                            price:"¥6099.00",
+                            overdue:"¥7699.00"
+                        },
+                    ],
+                },
+            {
+            title:"可穿戴设备",
+            childs:[
+                        {
+                            img:"images/pic_055.jpg",
+                            titles:"Samsung Galaxy Watch Active2 蓝牙版 40mm 铝合金版",
+                            details:"",
+                            price:"¥1899.00",
+                            overdue:""
+                        },{
+                            img:"images/pic_056.jpg",
+                            titles:"Samsung Galaxy Watch Active2 蓝牙版 44mm 不锈钢版",
+                            details:"",
+                            price:"¥2899.00",
+                            overdue:""
+                        },{
+                            img:"images/pic_057.jpg",
+                            titles:"Samsung Galaxy Buds",
+                            details:"",
+                            price:"¥899.00",
+                            overdue:"¥999.00"
+                        },{
+                            img:"images/pic_058.jpg",
+                            titles:"Samsung Galaxy Watch LTE版 46mm钛泽银",
+                            details:"",
+                            price:"¥2299.00",
+                            overdue:"¥2499.00"
+                        },
+                    ],
+                },
+            {
+            title:"平板电脑",
+            childs:[
+                        {
+                            img:"images/pic_059.jpg",
+                            titles:"Galaxy Tab S6",
+                            details:"",
+                            price:"¥5099.00",
+                            overdue:"¥5299.00"
+                        },{
+                            img:"images/pic_060.jpg",
+                            titles:"Galaxy Tab S5e 4G",
+                            details:"",
+                            price:"¥3299.00",
+                            overdue:"¥3599.00"
+                        },{
+                            img:"images/pic_061.jpg",
+                            titles:"Galaxy Tab A(2019 10.1英寸)",
+                            details:"",
+                            price:"¥1399.00",
+                            overdue:"¥1699.00"
+                        },{
+                            img:"images/pic_062.jpg",
+                            titles:"Galaxy Tab S4 4G",
+                            details:"",
+                            price:"¥4888.00",
+                            overdue:"¥5888.00"
+                        },
+                    ],
+                },
+                {
+            title:"笔记本电脑",
+            childs:[
+                        {
+                            img:"images/pic_063.jpg",
+                            titles:"三星星曜 750XBE-X02",
+                            details:"",
+                            price:"¥7499.00",
+                            overdue:"¥8499.00"
+                        },{
+                            img:"images/pic_064.jpg",
+                            titles:"三星星曜Pen Pro 930SBE-K04",
+                            details:"",
+                            price:"¥9999.00",
+                            overdue:"¥10199.00"
+                        },{
+                            img:"images/pic_065.jpg",
+                            titles:"三星星曜Pen Pro 930SBE-K05",
+                            details:"",
+                            price:"¥11499.00",
+                            overdue:"¥11699.00"
+                        },{
+                            img:"images/pic_066.jpg",
+                            titles:"三星星曜Pen Pro930SBE-K01",
+                            details:"",
+                            price:"¥8999.00",
+                            overdue:"¥9999.00"
+                        },
+                    ],
+                }
+            ];
+
+            var d = [
+                {
+                    img:"images/pic_045.jpg",
+                    title:"Samsung Galaxy Fold",
+                    details:"提前收藏 快人一步",
+                    price:"¥15999.00",
+                    overdue:""
+                },{
+                    img:"images/pic_046.jpg",
+                    title:"Galaxy Note10+ 5G",
+                    details:"5G新品 享24期免息",
+                    price:"¥7999.00",
+                    overdue:""
+                },{
+                    img:"images/pic_047.jpg",
+                    title:"Galaxy Note10",
+                    details:"24期免息 享好礼三选一",
+                    price:"¥6599.00",
+                    overdue:""
+                },{
+                    img:"images/pic_048.jpg",
+                    title:"Galaxy S10+ 8GB+128GB版本",
+                    details:"领券下单 优惠1000元",
+                    price:"¥6399.00",
+                    overdue:"¥6999.00"
+                }
+            ]
+
+
+        var list = [
+            {
+                img:"images/pic_131.jpg",
+                span:"Samsung Galaxy Fold",
+                price:"￥15,999.00",
+                overdue:"",
+                id:"0"
+            },{
+                img:"images/pic_132.jpg",
+                span:"Galaxy Note10+ 5G",
+                price:"￥7,999.00",
+                overdue:"",
+                id:"1"
+            },{
+                img:"images/pic_133.jpg",
+                span:"Galaxy Note10",
+                price:"￥6,599.00",
+                overdue:"",
+                id:"2"
+            },{
+                img:"images/pic_134.jpg",
+                span:"Galaxy A90 5G",
+                price:"￥4,499.00",
+                overdue:"",
+                id:"3"
+            },{
+                img:"images/pic_135.jpg",
+                span:"Galaxy A70s",
+                price:"￥2,699.00",
+                overdue:"",
+                id:"4"
+            },{
+                img:"images/pic_136.jpg",
+                span:"Galaxy A80",
+                price:"￥3,299.00",
+                overdue:"￥3,799.00",
+                id:"5"
+            },{
+                img:"images/pic_137.jpg",
+                span:"Samsung Galaxy M30s",
+                price:"￥1,699.00",
+                overdue:"",
+                id:"6"
+            },{
+                img:"images/pic_138.jpg",
+                span:"Galaxy S10+ 12GB+1TB版本",
+                price:"￥10,399.00",
+                overdue:"￥10,999.00",
+                id:"7"
+            },{
+                img:"images/pic_139.jpg",
+                span:"Galaxy S10+ 8GB+512GB版本",
+                price:"￥8,099.00",
+                overdue:"￥8,699.00",
+                id:"8"
+            },{
+                img:"images/pic_140.jpg",
+                span:"Galaxy S10+ 8GB+128GB版本",
+                price:"￥6,399.00",
+                overdue:"￥6,999.00",
+                id:"9"
+            },{
+                img:"images/pic_141.jpg",
+                span:"Galaxy S10 8GB+128GB版本",
+                price:"￥5,599.00",
+                overdue:"￥5,999.00",
+                id:"10"
+            },{
+                img:"images/pic_142.jpg",
+                span:"Galaxy S10 8GB+512GB版本",
+                price:"￥6,099.00",
+                overdue:"￥7,699.00",
+                id:"11"
+            },{
+                img:"images/pic_143.jpg",
+                span:"Galaxy S10e",
+                price:"￥4,599.00",
+                overdue:"￥4,999.00",
+                id:"12"
+            },{
+                img:"images/pic_144.jpg",
+                span:"Galaxy A60",
+                price:"￥1,399.00",
+                overdue:"￥1,499.00",
+                id:"13"
+            },{
+                img:"images/pic_145.jpg",
+                span:"Galaxy A70",
+                price:"￥2,299.00",
+                overdue:"￥2,499.00",
+                id:"14"
+            },{
+                img:"images/pic_146.jpg",
+                span:"Galaxy A8s",
+                price:"￥1,599.00",
+                overdue:"￥2,799.00",
+                id:"15"
+            },{
+                img:"images/pic_147.jpg",
+                span:"Galaxy A50s",
+                price:"￥1,999.00",
+                overdue:"",
+                id:"16"
+            },{
+                img:"images/pic_148.jpg",
+                span:"Galaxy A8s 独角精灵版",
+                price:"￥1,599.00",
+                overdue:"￥2,799.00",
+                id:"17"
+            },{
+                img:"images/pic_149.jpg",
+                span:"Galaxy A9s",
+                price:"￥2,099.00",
+                overdue:"￥3,499.00",
+                id:"18"
+            },{
+                img:"images/pic_150.jpg",
+                span:"Galaxy A40s",
+                price:"￥1,459.00",
+                overdue:"￥1,499.00",
+                id:"19"
+            },{
+                img:"images/pic_200.jpg",
+                span:"Galaxy A6s",
+                price:"￥1,299.00",
+                overdue:"￥1,799.00",
+                id:"20"
+            },{
+                img:"images/pic_201.jpg",
+                span:"Galaxy S9+ 128GB版本",
+                price:"￥4,999.00",
+                overdue:"￥6,499.00",
+                id:"21"
+            },{
+                img:"images/pic_202.jpg",
+                span:"Galaxy S9 64GB版本",
+                price:"￥5,199.00",
+                overdue:"",
+                id:"22"
+            },{
+                img:"images/pic_203.jpg",
+                span:"Galaxy Note8",
+                price:"￥6,988.00",
+                overdue:"",
+                id:"23"
+            },{
+                img:"images/pic_204.jpg",
+                span:"Galaxy S9 128GB版本",
+                price:"￥5,499.00",
+                overdue:"",
+                id:"24"
+            },{
+                img:"images/pic_205.jpg",
+                span:"Galaxy Note9",
+                price:"￥6,999.00",
+                overdue:"",
+                id:"25"
+            },{
+                img:"images/pic_206.jpg",
+                span:"三星W2019",
+                price:"￥11,999.00",
+                overdue:"￥13,999.00",
+                id:"26"
+            },{
+                img:"images/pic_207.jpg",
+                span:"Galaxy S8+",
+                price:"￥4,499.00",
+                overdue:"",
+                id:"27"
+            },{
+                img:"images/pic_208.jpg",
+                span:"Galaxy S8",
+                price:"￥3,999.00",
+                overdue:"",
+                id:"28"
+            }
+        ];
+
+
+
+
+
+
+
+
+
+
+        var imgs = [
+            {
+                img1: "images/pic_306.jpg",
+                img2: "images/pic_306.jpg",
+                img3: "images/pic_300.jpg"
+            },{
+                img1: "images/pic_307.jpg",
+                img2: "images/pic_307.jpg",
+                img3: "images/pic_301.jpg"
+            },{
+                img1: "images/pic_308.jpg",
+                img2: "images/pic_308.jpg",
+                img3: "images/pic_302.jpg"
+            },{
+                img1: "images/pic_309.jpg",
+                img2: "images/pic_309.jpg",
+                img3: "images/pic_303.jpg"
+            },{
+                img1: "images/pic_310.jpg",
+                img2: "images/pic_310.jpg",
+                img3: "images/pic_304.jpg"
+            },{
+                img1: "images/pic_311.jpg",
+                img2: "images/pic_311.jpg",
+                img3: "images/pic_305.jpg"
+            },
+        ]
+        var str3 = JSON.stringify(list);
+        document.write(str3);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
